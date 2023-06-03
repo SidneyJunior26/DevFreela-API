@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DevFreela.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DevFreela.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevFreela.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DevFreela.Core/1.0.0": {
+      "type": "project",
+      "path": "../DevFreela.Core/DevFreela.Core.csproj",
+      "msbuildProject": "../DevFreela.Core/DevFreela.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DevFreela.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/sidneyjunior/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Core/DevFreela.Core.csproj",
-      "projectName": "DevFreela.Core",
-      "projectPath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Core/DevFreela.Core.csproj",
+      "projectUniqueName": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/DevFreela.Infrastructure.csproj",
+      "projectName": "DevFreela.Infrastructure",
+      "projectPath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/DevFreela.Infrastructure.csproj",
       "packagesPath": "/Users/sidneyjunior/.nuget/packages/",
-      "outputPath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Core/obj/",
+      "outputPath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sidneyjunior/.nuget/NuGet/NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Core/DevFreela.Core.csproj": {
+              "projectPath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Core/DevFreela.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

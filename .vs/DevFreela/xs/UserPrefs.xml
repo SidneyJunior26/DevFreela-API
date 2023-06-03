@@ -4,25 +4,32 @@
     <Breakpoint file="/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/Controllers/ProjectsController.cs" relfile="DevFreela.API/Controllers/ProjectsController.cs" line="14" column="9" />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.DevFreela.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DevFreela.Infrastructure FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.API/appsettings.Development.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Core/Repositories/IProjectRepository.cs">
     <Files>
-      <File FileName="DevFreela.API/appsettings.json" Line="8" Column="22" />
+      <File FileName="DevFreela.API/appsettings.json" />
       <File FileName="DevFreela.API/Models/OpeningTimeOption.cs" />
-      <File FileName="DevFreela.API/Program.cs" Line="3" Column="1" />
-      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" Line="19" Column="21" />
-      <File FileName="DevFreela.API/appsettings.Development.json" Line="10" Column="26" />
+      <File FileName="DevFreela.API/Program.cs" />
+      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" />
+      <File FileName="DevFreela.API/appsettings.Development.json" Line="11" Column="4" />
+      <File FileName="DevFreela.Core/Entities/BaseEntity.cs" Line="10" Column="43" />
+      <File FileName="DevFreela.Core/Entities/Skill.cs" Line="4" Column="36" />
+      <File FileName="DevFreela.Core/Entities/User.cs" Line="12" Column="27" />
+      <File FileName="DevFreela.Core/Entities/UserSkill.cs" Line="9" Column="31" />
+      <File FileName="DevFreela.Core/Entities/Project.cs" Line="17" Column="48" />
+      <File FileName="DevFreela.Core/Enums/ProjectStatusEnum.cs" Line="4" Column="34" />
+      <File FileName="DevFreela.Core/Entities/ProjectComment.cs" Line="11" Column="1" />
+      <File FileName="DevFreela.Core/Exceptions/ProjectAlreadyStartedException.cs" Line="7" Column="8" />
+      <File FileName="DevFreela.Core/Repositories/IProjectRepository.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DevFreela" expanded="True">
-            <Node name="DevFreela.API" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
-            </Node>
+          <Node name="DevFreela" expanded="True" selected="True">
+            <Node name="DevFreela.API" expanded="True" />
+            <Node name="DevFreela.Core" expanded="True" />
           </Node>
         </State>
       </Pad>
