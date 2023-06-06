@@ -10,11 +10,13 @@
     <None Remove="Persistence\" />
     <None Remove="Persistence\Repositories\" />
     <None Remove="CloudServices\" />
+    <None Remove="CloudServices\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Persistence\" />
     <Folder Include="Persistence\Repositories\" />
     <Folder Include="CloudServices\" />
+    <Folder Include="CloudServices\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />

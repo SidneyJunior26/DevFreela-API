@@ -49,6 +49,21 @@ namespace DevFreela.Core.Entities
         }
         public ProjectStatusEnum Status { get; private set; }
         public List<ProjectComment> Comments { get; set; }
+
+        public void CancelProject() {
+            if (Status == ProjectStatusEnum.InProgress || Status == ProjectStatusEnum.Created)
+                Status = ProjectStatusEnum.Cancelled;
+        }
+
+        public void FinishProject() {
+            if (Status == ProjectStatusEnum.InProgress || Status == ProjectStatusEnum.Created)
+                Status = ProjectStatusEnum.Finished;
+        }
+
+        public void StartProject() {
+            if (Status == ProjectStatusEnum.Created)
+                Status = ProjectStatusEnum.InProgress;
+        }
     }
 }
 
