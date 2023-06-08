@@ -33,3 +33,7 @@
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.API/obj/Debug/net7.0/ref/DevFreela.API.dll
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/DevFreela.Core.dll
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/DevFreela.Core.pdb
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/DevFreela.Application.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/DevFreela.Infrastructure.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/DevFreela.Infrastructure.pdb
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/DevFreela.Application.pdb

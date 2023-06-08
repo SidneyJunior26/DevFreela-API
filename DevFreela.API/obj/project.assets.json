@@ -108,6 +108,20 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "DevFreela.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevFreela.Core": "1.0.0",
+          "DevFreela.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevFreela.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevFreela.Application.dll": {}
+        }
+      },
       "DevFreela.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -116,6 +130,19 @@
         },
         "runtime": {
           "bin/placeholder/DevFreela.Core.dll": {}
+        }
+      },
+      "DevFreela.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevFreela.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevFreela.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevFreela.Infrastructure.dll": {}
         }
       }
     }
@@ -462,15 +489,27 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "DevFreela.Application/1.0.0": {
+      "type": "project",
+      "path": "../DevFreela.Application/DevFreela.Application.csproj",
+      "msbuildProject": "../DevFreela.Application/DevFreela.Application.csproj"
+    },
     "DevFreela.Core/1.0.0": {
       "type": "project",
       "path": "../DevFreela.Core/DevFreela.Core.csproj",
       "msbuildProject": "../DevFreela.Core/DevFreela.Core.csproj"
+    },
+    "DevFreela.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DevFreela.Infrastructure/DevFreela.Infrastructure.csproj",
+      "msbuildProject": "../DevFreela.Infrastructure/DevFreela.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DevFreela.Application >= 1.0.0",
       "DevFreela.Core >= 1.0.0",
+      "DevFreela.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -501,8 +540,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Application/DevFreela.Application.csproj": {
+              "projectPath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Application/DevFreela.Application.csproj"
+            },
             "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Core/DevFreela.Core.csproj": {
               "projectPath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Core/DevFreela.Core.csproj"
+            },
+            "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/DevFreela.Infrastructure.csproj": {
+              "projectPath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/DevFreela.Infrastructure.csproj"
             }
           }
         }

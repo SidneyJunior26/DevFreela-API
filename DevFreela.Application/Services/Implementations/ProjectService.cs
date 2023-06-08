@@ -14,7 +14,13 @@ namespace DevFreela.Application.Services.Implementations
         }
         public int Create(NewsProjectInputModel inputModel)
         {
-            var project = new Project(inputModel.Title, inputModel.Descrition, inputModel.IdClient, inputModel.IdFreelancer, inputModel.TotalCost);
+            var project = new Project(
+                inputModel.Title,
+                inputModel.Descrition,
+                inputModel.IdClient,
+                inputModel.IdFreelancer,
+                inputModel.TotalCost
+                );
 
             _dbContext.Projects.Add(project);
 
@@ -46,7 +52,7 @@ namespace DevFreela.Application.Services.Implementations
         {
             var projects = _dbContext.Projects;
 
-            var projectsViewModel = projects.Select(p => new ProjectViewModel(p.Title, p.Description, p.Status)).ToList();
+            var projectsViewModel = projects.Select(p => new ProjectViewModel(p.Id, p.Title, p.Status)).ToList();
 
             return projectsViewModel;
         }
@@ -67,7 +73,9 @@ namespace DevFreela.Application.Services.Implementations
 
         public void Update(UpdateProjectInputModel inputModel)
         {
-            throw new NotImplementedException();
+            var project = _dbContext.Projects.SingleOrDefault(p => p.Id == inputModel.Id);
+
+            project.Update(inputModel.Title, inputModel.Descrition, inputModel.TotalCost);
         }
     }
 }

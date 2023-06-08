@@ -1,0 +1,15 @@
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/bin/Debug/net6.0/DevFreela.Infrastructure.deps.json
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/bin/Debug/net6.0/DevFreela.Infrastructure.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/bin/Debug/net6.0/DevFreela.Infrastructure.pdb
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/bin/Debug/net6.0/DevFreela.Core.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/bin/Debug/net6.0/DevFreela.Core.pdb
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.csproj.AssemblyReference.cache
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.AssemblyInfoInputs.cache
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.AssemblyInfo.cs
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.csproj.CopyComplete
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/refint/DevFreela.Infrastructure.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.pdb
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/ref/DevFreela.Infrastructure.dll

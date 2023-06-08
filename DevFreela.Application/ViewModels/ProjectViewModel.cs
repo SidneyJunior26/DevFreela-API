@@ -5,18 +5,17 @@ namespace DevFreela.Application.ViewModels
 {
     public class ProjectViewModel
     {
-        public ProjectViewModel(string title, string description, ProjectStatusEnum status)
+        public ProjectViewModel(int id, string title, ProjectStatusEnum status)
         {
+            Id = id;
             Title = title;
-            Description = description;
             Status = status;
         }
-
-        public string Title {
+        public int Id {
             get;
             private set;
         }
-        public string Description {
+        public string Title {
             get;
             private set;
         }

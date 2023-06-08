@@ -56,13 +56,23 @@ namespace DevFreela.Core.Entities
         }
 
         public void FinishProject() {
-            if (Status == ProjectStatusEnum.InProgress || Status == ProjectStatusEnum.Created)
+            if (Status == ProjectStatusEnum.InProgress || Status == ProjectStatusEnum.Created) {
                 Status = ProjectStatusEnum.Finished;
+                FinishedAt = DateTime.Now;
+            }
         }
 
         public void StartProject() {
-            if (Status == ProjectStatusEnum.Created)
+            if (Status == ProjectStatusEnum.Created) {
                 Status = ProjectStatusEnum.InProgress;
+                StartedAt = DateTime.Now;
+            }
+        }
+
+        public void Update(string title, string description, decimal totalCost) {
+            Title = title;
+            Description = description;
+            TotalCost = totalCost;
         }
     }
 }
