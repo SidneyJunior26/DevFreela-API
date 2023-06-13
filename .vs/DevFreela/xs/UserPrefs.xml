@@ -1,20 +1,11 @@
 ﻿<Properties StartupConfiguration="{98B8BBCC-B776-4082-B7A0-BBAE050C079A}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.DevFreela.Core FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.Infrastructure FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Application/Services/Implementations/ProjectService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.API/Program.cs">
     <Files>
-      <File FileName="DevFreela.Infrastructure/Persistence/DevFreelaDbContext.cs" Line="4" Column="6" />
-      <File FileName="DevFreela.Core/Entities/Skill.cs" Line="6" Column="16" />
-      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" Line="18" Column="45" />
-      <File FileName="DevFreela.Application/Services/Interfaces/IProjectService.cs" Line="15" Column="25" />
-      <File FileName="DevFreela.Application/ViewModels/CreateCommentInputModel.cs" Line="1" Column="1" />
-      <File FileName="DevFreela.Application/Services/Implementations/ProjectService.cs" Line="19" Column="35" />
+      <File FileName="DevFreela.Application/Services/Interfaces/IUserService.cs" Line="1" Column="1" />
+      <File FileName="DevFreela.Application/Services/Implementations/UserService.cs" Line="1" Column="1" />
+      <File FileName="DevFreela.API/Controllers/ProjectsController.cs" Line="1" Column="1" />
+      <File FileName="DevFreela.Core/Entities/Project.cs" Line="20" Column="1" />
+      <File FileName="DevFreela.API/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,6 +13,7 @@
           <Node name="DevFreela" expanded="True">
             <Node name="DevFreela.API" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="DevFreela.Application" expanded="True">
               <Node name="Services" expanded="True">
@@ -29,15 +21,20 @@
                 <Node name="Interfaces" expanded="True" />
               </Node>
             </Node>
-            <Node name="DevFreela.Infrastructure" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Persistence" expanded="True" />
+            <Node name="DevFreela.Core" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Repositories" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DevFreela.Application FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

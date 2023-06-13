@@ -13,5 +13,6 @@ public interface IProjectService
     void CreateComment(CreateCommentInputModel inputModel);
     void Start(int id);
     void Finish(int id);
+    void Delete(int id);
 }
 

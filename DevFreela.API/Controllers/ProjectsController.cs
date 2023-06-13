@@ -48,32 +48,41 @@ public class ProjectsController : ControllerBase
     }
 
     [HttpPost("{id}/comments")]
-    public IActionResult PostComment(int id, [FromBody] CreateCommentModel createCommentsModel) {
+    public IActionResult PostComment(int id, [FromBody] CreateCommentInputModel createCommentInputModel) {
+        _projectService.CreateComment(createCommentInputModel);
+
         return NoContent();
     }
 
     [HttpPut]
-    public IActionResult Put([FromBody] UpdateProjectModel updateProjectModel) {
-        if (updateProjectModel.Description.Length > 200) {
+    public IActionResult Put([FromBody] UpdateProjectInputModel updateProjectInputModel) {
+        if (updateProjectInputModel.Description.Length > 200)
             return BadRequest();
-        }
+
+        _projectService.Update(updateProjectInputModel);
 
         return NoContent();
     }
 
     [HttpPut("{id}/start")]
     public IActionResult Start(int id) {
-        return NoContent();
+        _projectService.Start(id);
+
+        return Ok();
     }
 
     [HttpPut("{id}/finish")]
     public IActionResult Finish(int id) {
-        return NoContent();
+        _projectService.Finish(id);
+
+        return Ok();
     }
 
     [HttpDelete("{id}")]
     public IActionResult Delete(int id) {
-        return NoContent();
+        _projectService.Delete(id);
+
+        return Ok();
     }
 }
 

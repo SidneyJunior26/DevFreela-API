@@ -75,7 +75,14 @@ namespace DevFreela.Application.Services.Implementations
         {
             var project = _dbContext.Projects.SingleOrDefault(p => p.Id == inputModel.Id);
 
-            project.Update(inputModel.Title, inputModel.Descrition, inputModel.TotalCost);
+            project.Update(inputModel.Title, inputModel.Description, inputModel.TotalCost);
+        }
+
+        public void Delete(int id)
+        {
+            var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id);
+
+            _dbContext.Projects.Remove(project);
         }
     }
 }
