@@ -17,6 +17,10 @@ namespace DevFreela.Core.Entities
             get;
             private set;
         }
+        public Skill Skill {
+            get;
+            private set;
+        }
     }
 }
 

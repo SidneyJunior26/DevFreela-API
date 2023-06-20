@@ -20,7 +20,15 @@ namespace DevFreela.Core.Entities
             get;
             private set;
         }
+        public Project Project {
+            get;
+            private set;
+        }
         public int IdUser {
+            get;
+            private set;
+        }
+        public User User {
             get;
             private set;
         }

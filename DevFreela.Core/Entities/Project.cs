@@ -27,7 +27,15 @@ namespace DevFreela.Core.Entities
             get;
             private set;
         }
+        public User Client {
+            get;
+            private set;
+        }
         public int IdFreelancer {
+            get;
+            private set;
+        }
+        public User Freelancer {
             get;
             private set;
         }

@@ -13,3 +13,5 @@
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/refint/DevFreela.Infrastructure.dll
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.pdb
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/ref/DevFreela.Infrastructure.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/bin/Debug/net6.0/DevFreela.Infrastructure.runtimeconfig.json
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.Infrastructure/obj/Debug/net6.0/DevFreela.Infrastructure.genruntimeconfig.cache

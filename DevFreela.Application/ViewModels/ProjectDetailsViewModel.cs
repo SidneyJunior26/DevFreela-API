@@ -5,11 +5,14 @@ namespace DevFreela.Application.ViewModels
 {
     public class ProjectDetailsViewModel
     {
-        public ProjectDetailsViewModel(string title, string description, decimal totalCost, ProjectStatusEnum status) {
+        public ProjectDetailsViewModel(string title, string description, decimal totalCost, ProjectStatusEnum status,
+            string clientFullName, string freelancerFullName) {
             Title = title;
             Description = description;
             TotalCost = totalCost;
             Status = status;
+            ClientFullName = clientFullName;
+            FreelancerFullName = freelancerFullName;
         }
 
         public string Title {
@@ -25,6 +28,14 @@ namespace DevFreela.Application.ViewModels
             private set;
         }
         public ProjectStatusEnum Status { get; private set; }
+        public string ClientFullName {
+            get;
+            private set;
+        }
+        public string FreelancerFullName {
+            get;
+            private set;
+        }
     }
 }
 
