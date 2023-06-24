@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8/Ob7YZhccp3mRXsiV4ysiEn9HsH4ktubtYWJo2XQJt52ekYvmzl8iSCQVWST1LilMEgqvaYr4hqC7EKTfqA9w==",
+  "dgSpecHash": "NoAYV/QSec8OAAb7KOXQ2C8oQy6PYl18LkvuKFtYjAJtpXc+aiEUW+GvHKX4kx5LJGIe7YA9BX60W7x5rkbezA==",
   "success": true,
   "projectFilePath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.Application/DevFreela.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/sidneyjunior/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/sidneyjunior/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/sidneyjunior/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/microsoft.entityframeworkcore/7.0.7/microsoft.entityframeworkcore.7.0.7.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.7/microsoft.entityframeworkcore.abstractions.7.0.7.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.7/microsoft.entityframeworkcore.analyzers.7.0.7.nupkg.sha512",

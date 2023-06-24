@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VpJcGMHLvlo9ywcX7VvAnI4BZhtjUqlsvq9Vp0p9+B564QwX4tj/PUeZ7kwCtGCcADSiOw6L32/RWEqqGfz1Gg==",
+  "dgSpecHash": "WH241loylv9k/UM1NcIf7g6HMkWUabODVoSVJxZvzO4gSzvGmcDfUGST9P6hBbO0fQMREV05Kgp0mOgsyHTzLA==",
   "success": true,
   "projectFilePath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/DevFreela.API.csproj",
   "expectedPackageFiles": [
     "/Users/sidneyjunior/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/sidneyjunior/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/sidneyjunior/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/sidneyjunior/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/microsoft.aspnetcore.openapi/7.0.2/microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/microsoft.entityframeworkcore/7.0.7/microsoft.entityframeworkcore.7.0.7.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.7/microsoft.entityframeworkcore.abstractions.7.0.7.nupkg.sha512",

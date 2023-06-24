@@ -1,7 +1,7 @@
 using DevFreela.API.Models;
-using DevFreela.Application.Services.Implementations;
-using DevFreela.Application.Services.Interfaces;
+using DevFreela.Application.Commands.Project.CreateProject;
 using DevFreela.Infrastructure.Persistence;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,11 +15,10 @@ var connectionString = builder.Configuration.GetConnectionString("MySql");
 builder.Services.AddDbContext<DevFreelaDbContext>(
     options => options.UseMySql(connectionString, serverVersion), optionsLifetime: ServiceLifetime.Singleton);
 
-builder.Services.AddScoped<IProjectService, ProjectService>();
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<ISkillService, SkillService>();
-
 builder.Services.AddControllers();
+
+builder.Services.AddMediatR(typeof(CreateProjectCommand));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

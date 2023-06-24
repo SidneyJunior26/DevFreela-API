@@ -9,19 +9,57 @@
   <ItemGroup>
     <None Remove="InputModels\" />
     <None Remove="ViewModels\" />
-    <None Remove="Services\" />
-    <None Remove="Services\Interfaces\" />
-    <None Remove="Services\Implementations\" />
+    <None Remove="Commands\" />
+    <None Remove="Querys\" />
+    <None Remove="Commands\Project\" />
+    <None Remove="Commands\Project\CancelProject\" />
+    <None Remove="Commands\Project\CreateComment\" />
+    <None Remove="Commands\Project\CreateProject\" />
+    <None Remove="Commands\Project\StartProject\" />
+    <None Remove="Commands\Project\UpdateProject\" />
+    <None Remove="Commands\Project\FinishProject\" />
+    <None Remove="Commands\Project\DeleteProject\" />
+    <None Remove="Querys\Project\" />
+    <None Remove="Querys\Project\GetAllProjects\" />
+    <None Remove="Querys\Project\GetProjectById\" />
+    <None Remove="Querys\Skills\GetAllSkills\" />
+    <None Remove="Querys\User\" />
+    <None Remove="Querys\Skills\" />
+    <None Remove="Querys\User\GetUserById\" />
+    <None Remove="Commands\User\CreateUser\" />
+    <None Remove="Commands\User\Login\" />
+    <None Remove="Commands\User\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="InputModels\" />
     <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
-    <Folder Include="Services\Interfaces\" />
-    <Folder Include="Services\Implementations\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Querys\" />
+    <Folder Include="Commands\Project\" />
+    <Folder Include="Commands\Project\CancelProject\" />
+    <Folder Include="Commands\Project\CreateComment\" />
+    <Folder Include="Commands\Project\CreateProject\" />
+    <Folder Include="Commands\Project\StartProject\" />
+    <Folder Include="Commands\Project\UpdateProject\" />
+    <Folder Include="Commands\Project\FinishProject\" />
+    <Folder Include="Commands\Project\DeleteProject\" />
+    <Folder Include="Querys\Project\" />
+    <Folder Include="Querys\Project\GetAllProjects\" />
+    <Folder Include="Querys\Project\GetProjectById\" />
+    <Folder Include="Querys\User\" />
+    <Folder Include="Querys\Skills\" />
+    <Folder Include="Querys\User\GetUserById\" />
+    <Folder Include="Querys\Skills\GetAllSkills\" />
+    <Folder Include="Commands\Users\CreateUser\" />
+    <Folder Include="Commands\Users\Login\" />
+    <Folder Include="Commands\User\" />
+    <Folder Include="Commands\User\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
     <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
   </ItemGroup>
 </Project>

@@ -1,5 +1,4 @@
-﻿using System;
-using DevFreela.Core.Enums;
+﻿using DevFreela.Core.Enums;
 
 namespace DevFreela.Core.Entities
 {
