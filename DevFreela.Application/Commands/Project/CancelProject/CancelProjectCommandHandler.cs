@@ -1,21 +1,23 @@
-﻿using DevFreela.Infrastructure.Persistence;
+﻿using DevFreela.Core.Repositories;
 using MediatR;
 
-namespace DevFreela.Application.Commands.Project.CancelProject {
+namespace DevFreela.Application.Commands.Project.CancelProject
+{
     public class CancelProjectCommandHandler : IRequestHandler<CancelProjectCommand, Unit> {
-        private readonly DevFreelaDbContext _dbContext;
+        private readonly IProjectRepository _projectRepository;
 
-        public CancelProjectCommandHandler(DevFreelaDbContext dbContext) {
-            _dbContext = dbContext;
+        public CancelProjectCommandHandler(IProjectRepository projectRepository)
+        {
+            _projectRepository = projectRepository;
         }
 
+
         public async Task<Unit> Handle(CancelProjectCommand request, CancellationToken cancellationToken) {
-            var project = _dbContext.Projects.SingleOrDefault(p => p.Id == request.Id);
+            var project = await _projectRepository.GetProjectByIdAsync(request.Id);
 
-            if (project != null)
-                project.CancelProject();
+            project.CancelProject();
 
-            await _dbContext.SaveChangesAsync();
+            await _projectRepository.SaveChangesAsync();
 
             return Unit.Value;
         }

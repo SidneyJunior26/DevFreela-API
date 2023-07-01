@@ -1,6 +1,8 @@
 using DevFreela.API.Models;
 using DevFreela.Application.Commands.Project.CreateProject;
+using DevFreela.Core.Repositories;
 using DevFreela.Infrastructure.Persistence;
+using DevFreela.Infrastructure.Persistence.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +16,10 @@ var connectionString = builder.Configuration.GetConnectionString("MySql");
 
 builder.Services.AddDbContext<DevFreelaDbContext>(
     options => options.UseMySql(connectionString, serverVersion), optionsLifetime: ServiceLifetime.Singleton);
+
+builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ISkillRepository, SkillRepository>();
 
 builder.Services.AddControllers();
 
