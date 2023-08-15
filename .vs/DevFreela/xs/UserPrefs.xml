@@ -1,33 +1,25 @@
 ﻿<Properties StartupConfiguration="{98B8BBCC-B776-4082-B7A0-BBAE050C079A}|https">
-  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Infrastructure/Persistence/Repositories/ProjectRepository.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevFreela.Application/Validators/CreateUserCommandValidator.cs">
     <Files>
-      <File FileName="DevFreela.Infrastructure/Persistence/Repositories/ProjectRepository.cs" Line="9" Column="49" />
-      <File FileName="DevFreela.Core/Repositories/IProjectRepository.cs" Line="16" Column="57" />
-      <File FileName="DevFreela.Application/Commands/Project/CreateComment/CreateCommentCommandHandler.cs" Line="13" Column="10" />
-      <File FileName="DevFreela.Application/Commands/Project/CreateProject/CreateProjectCommandHandler.cs" Line="1" Column="1" />
-      <File FileName="DevFreela.Application/Commands/Project/UpdateProject/UpdateProjectCommandHandler.cs" Line="10" Column="10" />
+      <File FileName="DevFreela.Application/Validators/CreateUserValidator.cs" Line="22" Column="42" />
+      <File FileName="DevFreela.API/Program.cs" Line="26" Column="34" />
+      <File FileName="DevFreela.Application/Commands/User/CreateUser/CreateUserCommand.cs" Line="8" Column="31" />
+      <File FileName="DevFreela.Application/Commands/User/CreateUser/CreateUserCommandHandler.cs" Line="16" Column="53" />
+      <File FileName="DevFreela.Core/Entities/User.cs" Line="10" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DevFreela" expanded="True">
             <Node name="DevFreela.Application">
-              <Node name="Commands">
-                <Node name="Project">
-                  <Node name="CreateProject" expanded="True" />
-                  <Node name="UpdateProject" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="DevFreela.Core">
-              <Node name="Repositories" expanded="True" />
-            </Node>
-            <Node name="DevFreela.Infrastructure">
-              <Node name="Persistence">
-                <Node name="Repositories">
-                  <Node name="ProjectRepository.cs" selected="True" />
-                </Node>
+              <Node name="Commands" expanded="True" />
+              <Node name="Validators" expanded="True">
+                <Node name="CreateUserCommandValidator.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -35,10 +27,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DevFreela.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

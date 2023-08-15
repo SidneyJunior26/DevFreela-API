@@ -42,10 +42,6 @@ public class ProjectsController : ControllerBase {
 
     [HttpPost]
     public async Task<IActionResult> Post([FromBody] CreateProjectCommand createProjectCommand) {
-        if (createProjectCommand.Title.Length > 50) {
-            return BadRequest();
-        }
-
         var idProject = await _mediator.Send(createProjectCommand);
 
         return CreatedAtAction(nameof(GetById), new { id = idProject }, createProjectCommand);

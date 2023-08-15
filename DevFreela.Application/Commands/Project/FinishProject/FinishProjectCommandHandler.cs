@@ -10,7 +10,7 @@ namespace DevFreela.Application.Commands.Project.FinishProject {
         }
 
         public async Task<Unit> Handle(FinishProjectCommand request, CancellationToken cancellationToken) {
-            var project = await _projectRepository.GetProjectByIdAsync(request.Id).ConfigureAwait(false);
+            var project = await _projectRepository.GetProjectByIdAsync(request.Id);
 
             project.FinishProject();
 

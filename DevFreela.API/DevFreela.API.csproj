@@ -20,9 +20,11 @@
 
   <ItemGroup>
     <None Remove="Models\" />
+    <None Remove="Filters\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Filters\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />

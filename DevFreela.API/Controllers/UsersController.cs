@@ -15,6 +15,7 @@ public class UsersController : ControllerBase {
     public UsersController(IMediator mediator) {
         _mediator = mediator;
     }
+
     [HttpGet("{id}")]
     public IActionResult GetById([FromRoute] int id) {
         var getUserByIdQuery = new GetUserByIdQuery(id);

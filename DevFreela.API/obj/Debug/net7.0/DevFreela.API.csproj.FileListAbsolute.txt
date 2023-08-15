@@ -50,3 +50,6 @@
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.API/obj/Debug/net7.0/DevFreela.API.pdb
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.API/obj/Debug/net7.0/DevFreela.API.genruntimeconfig.cache
 /Users/sidneyjunior/Projects/DevFreela/DevFreela.API/obj/Debug/net7.0/ref/DevFreela.API.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/FluentValidation.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll

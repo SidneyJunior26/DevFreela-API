@@ -13,6 +13,7 @@ namespace DevFreela.Application.Commands.User.CreateUser
         public async Task<int> Handle(CreateUserCommand request, CancellationToken cancellationToken) {
             var newUser = new Core.Entities.User(request.FullName,
                                    request.Email,
+                                   request.Password,
                                    request.BirthDate);
 
             _dbContext.Users.Add(newUser);

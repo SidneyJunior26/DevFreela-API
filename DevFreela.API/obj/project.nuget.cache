@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WH241loylv9k/UM1NcIf7g6HMkWUabODVoSVJxZvzO4gSzvGmcDfUGST9P6hBbO0fQMREV05Kgp0mOgsyHTzLA==",
+  "dgSpecHash": "gVPuYUM4GSZXbRr3hA9CmG47BPrtPouZZ136DTuACKoF8ear+JRnRfuedubtkqwIgl9y+BS3j8Upcstj/U7pig==",
   "success": true,
   "projectFilePath": "/Users/sidneyjunior/Projects/DevFreela/DevFreela.API/DevFreela.API.csproj",
   "expectedPackageFiles": [
+    "/Users/sidneyjunior/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/sidneyjunior/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/sidneyjunior/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
     "/Users/sidneyjunior/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",

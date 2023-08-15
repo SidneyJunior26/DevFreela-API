@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="InputModels\" />
     <None Remove="ViewModels\" />
     <None Remove="Commands\" />
     <None Remove="Querys\" />
@@ -29,9 +28,9 @@
     <None Remove="Commands\User\CreateUser\" />
     <None Remove="Commands\User\Login\" />
     <None Remove="Commands\User\" />
+    <None Remove="Validators\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="InputModels\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Commands\" />
     <Folder Include="Querys\" />
@@ -54,6 +53,7 @@
     <Folder Include="Commands\Users\Login\" />
     <Folder Include="Commands\User\" />
     <Folder Include="Commands\User\" />
+    <Folder Include="Validators\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
@@ -61,5 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
   </ItemGroup>
 </Project>

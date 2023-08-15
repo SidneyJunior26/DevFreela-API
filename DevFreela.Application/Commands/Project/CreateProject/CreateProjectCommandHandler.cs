@@ -16,7 +16,7 @@ namespace DevFreela.Application.Commands.Project.CreateProject
         {
             var project = new Core.Entities.Project(
                 request.Title,
-                request.Descrition,
+                request.Description,
                 request.IdClient,
                 request.IdFreelancer,
                 request.TotalCost
